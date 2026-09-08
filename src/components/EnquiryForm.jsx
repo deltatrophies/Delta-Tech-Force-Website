@@ -23,6 +23,7 @@ const MACHINE_OPTIONS = [
   "UV Dryer",
   "UV Printer",
   "Wood Working Machine",
+  "Pantorouter",
   "Cold Press Machine",
   "Edge Bending Machine",
   "Hot Press Machine",

@@ -186,6 +186,17 @@ export const SUBCATEGORIES = [
     imageFit: "contain",
   },
   {
+    slug: "pantorouter-machines",
+    parentSlug: "wood-working-machines",
+    name: "Pantorouter Machines",
+    short: "Precision Joinery",
+    description:
+      "Pantorouter machines for accurate mortise-and-tenon joinery, templates, profiling, and repeatable woodworking operations.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1788853769/delta-impex/images/machinery/wood-working-machines/pantorouter/front-view.png",
+    imageFit: "contain",
+  },
+  {
     slug: "drill-machines",
     parentSlug: "wood-working-machines",
     name: "Drill Machines",
@@ -1011,6 +1022,32 @@ export const PRODUCTS = [
     ],
     materialSupport: "Wood, panels, and compatible production components",
     automationLevel: "Automatic",
+  }),
+  createNewMachine({
+    slug: "pantorouter",
+    name: "Pantorouter",
+    category: "pantorouter-machines",
+    parentCategory: "wood-working-machines",
+    categoryName: "Pantorouter Machine",
+    description:
+      "A precision Pantorouter for creating accurate mortise-and-tenon joints, routed profiles, and repeatable woodworking components.",
+    features: [
+      "Precision mortise-and-tenon joinery",
+      "Template-guided routing for repeatable results",
+      "Adjustable worktable and secure clamping support",
+      "Suitable for detailed furniture and workshop production",
+    ],
+    applications:
+      "Furniture joinery, mortise-and-tenon work, routed profiles, chair and table components, cabinetry, and custom woodworking.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1788853769/delta-impex/images/machinery/wood-working-machines/pantorouter/front-view.png",
+    gallery: [
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1788853769/delta-impex/images/machinery/wood-working-machines/pantorouter/front-view.png",
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1788853776/delta-impex/images/machinery/wood-working-machines/pantorouter/working-view.png",
+    ],
+    materialSupport: "Solid wood, hardwood, softwood, and compatible wood products",
+    usage: "Woodworking Workshop / Furniture Production",
+    automationLevel: "Manual / Template-Guided",
   }),
 ];
 
