@@ -27,7 +27,7 @@ export const CATEGORIES = [
     name: "Signage Machine",
     short: "Laser Signage",
     description:
-      "CNC, laser marking, polishing, cutting, engraving, and finishing machines for signage production.",
+      "CNC, UV printing, laser marking, polishing, cutting, engraving, and finishing machines for signage production.",
     image: "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1785933020/delta-impex/images/machinery/laser-machines/laser-machine/lid-closed.png",
     imageFit: "contain",
   },
@@ -124,7 +124,7 @@ export const SUBCATEGORIES = [
   },
   {
     slug: "uv-printers",
-    parentSlug: "plastic-processing-machines",
+    parentSlug: "signage-machines",
     name: "UV Printers",
     short: "Digital Printing",
     description:
@@ -1029,7 +1029,7 @@ export const PRODUCTS = [
     slug: "uv-printer",
     name: "UV Printer",
     category: "uv-printers",
-    parentCategory: "plastic-processing-machines",
+    parentCategory: "signage-machines",
     categoryName: "UV Printer",
     description: "A new UV printer for direct, detailed, and versatile production printing applications.",
     features: ["Direct UV printing workflow", "Wide production-bed configuration", "Suitable for detailed graphics", "Supports multiple compatible surfaces"],
