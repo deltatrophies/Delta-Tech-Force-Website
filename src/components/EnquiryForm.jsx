@@ -12,6 +12,7 @@ import {
 
 const MACHINE_OPTIONS = [
   "CNC Machine",
+  "CNC Router Machine",
   "Plastic Processing Machine",
   "Plastic Injection Moulding Machine",
   "3D Printer",
@@ -31,7 +32,14 @@ const MACHINE_OPTIONS = [
   "Signage Machine",
   "Laser Machine",
   "Sanding Machine",
-  "Circular Saw Machine",
+  "Wide Belt Sander",
+  "Rebend Saw",
+  "Circular Saw",
+  "Panel Saw",
+  "Multi Boring Machine",
+  "Wood Thickness Planer",
+  "Fibre Metal Marking Machine",
+  "Flame Polishing Machine",
   "SPM (Special Purpose Machine)",
   "Old Machine",
   "New Machine",

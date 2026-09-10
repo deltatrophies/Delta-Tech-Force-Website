@@ -18,7 +18,7 @@ export const CATEGORIES = [
     name: "Wood Working Machines",
     short: "Craftsmanship",
     description:
-      "CNC, sanding, circular saw, SPM, router, and drill machines for woodworking production.",
+      "CNC, sawing, boring, planing, sanding, routing, and specialist machines for woodworking production.",
     image: "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1785933053/delta-impex/images/machinery/wood-working-machines/router-machine/front-view.png",
     imageFit: "contain",
   },
@@ -27,7 +27,7 @@ export const CATEGORIES = [
     name: "Signage Machine",
     short: "Laser Signage",
     description:
-      "Laser machines for cutting, engraving, marking, and signage production work.",
+      "CNC, laser marking, polishing, cutting, engraving, and finishing machines for signage production.",
     image: "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1785933020/delta-impex/images/machinery/laser-machines/laser-machine/lid-closed.png",
     imageFit: "contain",
   },
@@ -154,13 +154,36 @@ export const SUBCATEGORIES = [
     imageFit: "contain",
   },
   {
+    slug: "wide-belt-sanders",
+    parentSlug: "wood-working-machines",
+    name: "Wide Belt Sanders",
+    short: "Panel Finishing",
+    description:
+      "Wide belt sanding machines for uniform calibration, smoothing, and high-quality panel finishing.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041152/delta-impex/images/machinery/wood-working-machines/wide-belt-sander/front-view.png",
+    imageFit: "contain",
+  },
+  {
     slug: "sawing-machines",
     parentSlug: "wood-working-machines",
-    name: "Circular Saw Machines",
+    name: "Saw Machines",
     short: "Precision Cutting",
     description:
-      "Strong and accurate circular saw machines for clean, efficient woodworking cuts.",
-    image: "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1785933038/delta-impex/images/machinery/sawing-machines/saw-machine/front-view.png",
+      "Circular and rebend saw machines for clean, controlled, and efficient woodworking cuts.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041104/delta-impex/images/machinery/wood-working-machines/circular-saw/front-view.png",
+    imageFit: "contain",
+  },
+  {
+    slug: "panel-saw-machines",
+    parentSlug: "wood-working-machines",
+    name: "Panel Saw Machines",
+    short: "Panel Cutting",
+    description:
+      "Panel saw machines for accurate, repeatable cutting of boards, sheets, and furniture panels.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041126/delta-impex/images/machinery/wood-working-machines/panel-saw/front-view.png",
     imageFit: "contain",
   },
   {
@@ -205,6 +228,28 @@ export const SUBCATEGORIES = [
       "Accurate single and dual-head drilling machines for repeatable woodworking operations.",
     image:
       "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1785933048/delta-impex/images/machinery/wood-working-machines/dual-drill-machine/front-view.png",
+    imageFit: "contain",
+  },
+  {
+    slug: "multi-boring-machines",
+    parentSlug: "wood-working-machines",
+    name: "Multi Boring Machines",
+    short: "Multi-Point Drilling",
+    description:
+      "Multi boring machines for fast, accurate, and repeatable drilling of furniture and cabinet components.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041116/delta-impex/images/machinery/wood-working-machines/double-head-multi-boring/front-view.png",
+    imageFit: "contain",
+  },
+  {
+    slug: "wood-thickness-planers",
+    parentSlug: "wood-working-machines",
+    name: "Wood Thickness Planers",
+    short: "Thickness Calibration",
+    description:
+      "Wood thickness planers for producing accurately sized, smooth, and consistent timber stock.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041140/delta-impex/images/machinery/wood-working-machines/wood-thickness-planer/front-view.png",
     imageFit: "contain",
   },
   {
@@ -261,6 +306,39 @@ export const SUBCATEGORIES = [
     image: "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1785933020/delta-impex/images/machinery/laser-machines/laser-machine/lid-closed.png",
     imageFit: "contain",
   },
+  {
+    slug: "signage-cnc-router-machines",
+    parentSlug: "signage-machines",
+    name: "CNC Router Machines",
+    short: "CNC Routing",
+    description:
+      "CNC router machines for accurate cutting, shaping, and engraving across signage production materials.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1785933009/delta-impex/images/machinery/cnc-machines/cnc-cutting-machine-type-1/front-view.png",
+    imageFit: "contain",
+  },
+  {
+    slug: "fibre-metal-marking-machines",
+    parentSlug: "signage-machines",
+    name: "Fibre Metal Marking Machines",
+    short: "Metal Marking",
+    description:
+      "Fibre laser metal marking machines for permanent logos, serial numbers, text, and industrial graphics.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041159/delta-impex/images/machinery/signage-machines/fibre-metal-marking/front-view.png",
+    imageFit: "contain",
+  },
+  {
+    slug: "flame-polishing-machines",
+    parentSlug: "signage-machines",
+    name: "Flame Polishing Machines",
+    short: "Acrylic Finishing",
+    description:
+      "Flame polishing machines for smooth, clear, and professional finishing of acrylic edges.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041279/delta-impex/images/machinery/signage-machines/flame-polishing-machine/front-view.png",
+    imageFit: "contain",
+  },
 ];
 
 export const LEGACY_CATEGORY_ALIASES = {
@@ -305,6 +383,8 @@ const createNewMachine = ({
   name,
   category,
   parentCategory,
+  categories,
+  parentCategories,
   categoryName,
   description,
   features,
@@ -319,6 +399,8 @@ const createNewMachine = ({
   name,
   category,
   parentCategory,
+  ...(categories ? { categories } : {}),
+  ...(parentCategories ? { parentCategories } : {}),
   categoryName,
   condition: "New",
   description,
@@ -346,6 +428,8 @@ export const PRODUCTS = [
     name: "CNC Cutting Machine - Type 1",
     category: "cnc-machines",
     parentCategory: "wood-working-machines",
+    categories: ["cnc-machines", "signage-cnc-router-machines"],
+    parentCategories: ["wood-working-machines", "signage-machines"],
     categoryName: "CNC Cutting Machine",
     condition: "Old / New",
     description:
@@ -381,6 +465,8 @@ export const PRODUCTS = [
     name: "CNC Cutting Machine - Type 2",
     category: "cnc-machines",
     parentCategory: "wood-working-machines",
+    categories: ["cnc-machines", "signage-cnc-router-machines"],
+    parentCategories: ["wood-working-machines", "signage-machines"],
     categoryName: "CNC Cutting Machine",
     condition: "Old / New",
     description:
@@ -698,20 +784,21 @@ export const PRODUCTS = [
   },
   {
     slug: "sawing-machine",
-    name: "Circular Saw Machine",
+    name: "Rebend Saw",
     category: "sawing-machines",
     parentCategory: "wood-working-machines",
-    categoryName: "Circular Saw Machine",
+    categoryName: "Rebend Saw Machine",
     condition: "Old / New",
     description:
-      "Strong circular saw machine designed for accurate and efficient cutting applications.",
+      "A dependable rebend saw designed for controlled curved, profile, and general woodworking cuts.",
     features: [
-      "Clean cutting output",
-      "Durable frame",
-      "Suitable for workshop and industrial use",
-      "Reliable performance",
+      "Controlled curved and profile cutting",
+      "Durable machine frame",
+      "Suitable for workshop and industrial woodworking",
+      "Reliable, repeatable cutting performance",
     ],
-    applications: "General workshops, circular cutting operations, lumber yards, fabrication, and production work.",
+    applications:
+      "Furniture workshops, curved components, profile cutting, timber processing, and general woodworking production.",
     image: "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1785933038/delta-impex/images/machinery/sawing-machines/saw-machine/front-view.png",
     imageFit: "contain",
     gallery: [
@@ -719,11 +806,11 @@ export const PRODUCTS = [
       "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1785933041/delta-impex/images/machinery/sawing-machines/saw-machine/side-view.png",
     ],
     specs: {
-      machine_type: "Circular Saw",
+      machine_type: "Rebend Saw",
       condition: "Old / New",
       power: "Contact for details",
       working_area: "Standard",
-      material_support: "Wood, Metal, Plastic",
+      material_support: "Wood, timber, and compatible wood products",
       usage: "Workshop / Industrial",
       automation_level: "Manual / Semi-Auto",
       availability: "Available",
@@ -1049,6 +1136,186 @@ export const PRODUCTS = [
     usage: "Woodworking Workshop / Furniture Production",
     automationLevel: "Manual / Template-Guided",
   }),
+  createNewMachine({
+    slug: "circular-saw",
+    name: "Circular Saw",
+    category: "sawing-machines",
+    parentCategory: "wood-working-machines",
+    categoryName: "Circular Saw Machine",
+    description:
+      "A robust circular saw for clean, accurate, and repeatable timber cutting in woodworking production.",
+    features: [
+      "Precision circular cutting blade",
+      "Adjustable guide and working table",
+      "Stable heavy-duty machine construction",
+      "Suitable for repeat workshop production",
+    ],
+    applications:
+      "Timber sizing, straight cutting, furniture components, joinery stock, and general woodworking production.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041104/delta-impex/images/machinery/wood-working-machines/circular-saw/front-view.png",
+    gallery: [
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041104/delta-impex/images/machinery/wood-working-machines/circular-saw/front-view.png",
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041110/delta-impex/images/machinery/wood-working-machines/circular-saw/working-view.png",
+    ],
+    materialSupport: "Solid wood, hardwood, softwood, and timber",
+    usage: "Woodworking Workshop / Furniture Production",
+    automationLevel: "Manual / Semi-Automatic",
+  }),
+  createNewMachine({
+    slug: "double-head-multi-boring-machine",
+    name: "Double Head Multi Boring Machine",
+    category: "multi-boring-machines",
+    parentCategory: "wood-working-machines",
+    categoryName: "Multi Boring Machine",
+    description:
+      "A double-head multi boring machine for fast, accurate, and repeatable drilling of furniture panels and components.",
+    features: [
+      "Double-head multi-point boring configuration",
+      "Accurate and repeatable hole positioning",
+      "Secure workpiece support and clamping",
+      "Suitable for batch furniture production",
+    ],
+    applications:
+      "Cabinet panels, modular furniture, shelving, dowel drilling, fittings, and production joinery.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041116/delta-impex/images/machinery/wood-working-machines/double-head-multi-boring/front-view.png",
+    gallery: [
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041116/delta-impex/images/machinery/wood-working-machines/double-head-multi-boring/front-view.png",
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041121/delta-impex/images/machinery/wood-working-machines/double-head-multi-boring/working-view.png",
+    ],
+    materialSupport: "Wood, MDF, plywood, particle board, and furniture panels",
+    usage: "Furniture / Cabinet Production",
+    automationLevel: "Semi-Automatic",
+  }),
+  createNewMachine({
+    slug: "panel-saw",
+    name: "Panel Saw",
+    category: "panel-saw-machines",
+    parentCategory: "wood-working-machines",
+    categoryName: "Panel Saw Machine",
+    description:
+      "A precision panel saw for clean, square, and repeatable sizing of boards and furniture panels.",
+    features: [
+      "Large sliding table for panel support",
+      "Accurate fence and cutting alignment",
+      "Protective blade guard and dust outlet",
+      "Designed for clean production cuts",
+    ],
+    applications:
+      "Plywood, MDF, particle board, laminated panels, cabinet parts, doors, and modular furniture.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041126/delta-impex/images/machinery/wood-working-machines/panel-saw/front-view.png",
+    gallery: [
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041126/delta-impex/images/machinery/wood-working-machines/panel-saw/front-view.png",
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041133/delta-impex/images/machinery/wood-working-machines/panel-saw/working-view.png",
+    ],
+    materialSupport: "Plywood, MDF, particle board, laminates, and wood panels",
+    usage: "Panel Processing / Furniture Production",
+    automationLevel: "Manual / Semi-Automatic",
+  }),
+  createNewMachine({
+    slug: "wood-thickness-planer",
+    name: "Wood Thickness Planer",
+    category: "wood-thickness-planers",
+    parentCategory: "wood-working-machines",
+    categoryName: "Thickness Planer",
+    description:
+      "A wood thickness planer for accurately sizing timber and producing smooth, parallel surfaces.",
+    features: [
+      "Adjustable thickness control",
+      "Stable roller-assisted material feeding",
+      "Consistent surface calibration",
+      "Heavy-duty woodworking construction",
+    ],
+    applications:
+      "Timber calibration, furniture stock preparation, joinery, doors, frames, and workshop production.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041140/delta-impex/images/machinery/wood-working-machines/wood-thickness-planer/front-view.png",
+    gallery: [
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041140/delta-impex/images/machinery/wood-working-machines/wood-thickness-planer/front-view.png",
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041146/delta-impex/images/machinery/wood-working-machines/wood-thickness-planer/working-view.png",
+    ],
+    materialSupport: "Solid wood, hardwood, softwood, and timber",
+    usage: "Timber Preparation / Furniture Production",
+    automationLevel: "Semi-Automatic",
+  }),
+  createNewMachine({
+    slug: "wide-belt-sander",
+    name: "Wide Belt Sander",
+    category: "wide-belt-sanders",
+    parentCategory: "wood-working-machines",
+    categoryName: "Wide Belt Sander",
+    description:
+      "An industrial wide belt sander for uniform calibration, smoothing, and production-quality panel finishing.",
+    features: [
+      "Wide sanding belt for consistent coverage",
+      "Conveyor-fed production workflow",
+      "Adjustable sanding and calibration control",
+      "Enclosed heavy-duty machine body",
+    ],
+    applications:
+      "Furniture panels, doors, plywood, MDF, solid wood components, calibration, and surface finishing.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041152/delta-impex/images/machinery/wood-working-machines/wide-belt-sander/front-view.png",
+    gallery: [
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041152/delta-impex/images/machinery/wood-working-machines/wide-belt-sander/front-view.png",
+    ],
+    materialSupport: "Solid wood, plywood, MDF, veneer, and furniture panels",
+    usage: "Panel Calibration / Surface Finishing",
+    automationLevel: "Automatic",
+  }),
+  createNewMachine({
+    slug: "fibre-metal-marking-machine",
+    name: "Fibre Metal Marking Machine",
+    category: "fibre-metal-marking-machines",
+    parentCategory: "signage-machines",
+    categoryName: "Fibre Metal Marking Machine",
+    description:
+      "A precision fibre laser marking machine for permanent, detailed marking on metals and industrial components.",
+    features: [
+      "High-contrast permanent metal marking",
+      "Computer-controlled design and positioning",
+      "Adjustable marking head and work platform",
+      "Suitable for fine text, logos, and serial numbers",
+    ],
+    applications:
+      "Metal labels, nameplates, serial numbers, QR codes, logos, tools, components, and signage production.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041159/delta-impex/images/machinery/signage-machines/fibre-metal-marking/front-view.png",
+    gallery: [
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041159/delta-impex/images/machinery/signage-machines/fibre-metal-marking/front-view.png",
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041167/delta-impex/images/machinery/signage-machines/fibre-metal-marking/working-view.png",
+    ],
+    materialSupport: "Stainless steel, aluminium, brass, coated metals, and compatible materials",
+    usage: "Signage / Industrial Metal Marking",
+    automationLevel: "Computer-Controlled",
+  }),
+  createNewMachine({
+    slug: "flame-polishing-machine",
+    name: "Flame Polishing Machine",
+    category: "flame-polishing-machines",
+    parentCategory: "signage-machines",
+    categoryName: "Flame Polishing Machine",
+    description:
+      "A compact flame polishing machine for producing smooth, clear, and professional acrylic edges.",
+    features: [
+      "Focused flame for controlled edge polishing",
+      "Portable and compact machine design",
+      "Adjustable operating pressure",
+      "Suitable for clear acrylic finishing",
+    ],
+    applications:
+      "Acrylic letters, display pieces, signage edges, awards, decorative components, and fabrication finishing.",
+    image:
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041279/delta-impex/images/machinery/signage-machines/flame-polishing-machine/front-view.png",
+    gallery: [
+      "https://res.cloudinary.com/dliriew7z/image/upload/f_auto,q_auto:best/v1789041279/delta-impex/images/machinery/signage-machines/flame-polishing-machine/front-view.png",
+    ],
+    materialSupport: "Acrylic and compatible thermoplastic edges",
+    usage: "Signage / Acrylic Fabrication",
+    automationLevel: "Manual",
+  }),
 ];
 
 export const findProduct = (slug) =>
@@ -1063,7 +1330,9 @@ export const productsByCategory = (slug) => {
     (p) =>
       p.slug === resolved ||
       p.category === resolved ||
-      p.parentCategory === resolved
+      p.parentCategory === resolved ||
+      p.categories?.includes(resolved) ||
+      p.parentCategories?.includes(resolved)
   );
 };
 
